@@ -51,7 +51,7 @@ header{
     width: calc(100% * 8 / 12 - 10px);
     margin-right: 10px;
 }
-.form input, .form textarea{
+.form input, .form textarea, .form button{
     display: block;
     width: 100%;
     margin-bottom: 15px;
@@ -63,6 +63,18 @@ header{
     font-size: 12px;
     border-radius: 5px;
 }
+
+.form button {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+}
+
+.form button:hover {
+    background-color: #53ff88;
+    transition: 0.5s linear;
+}
+
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #f48c8f; }
 .contacts__info{
     width: calc(100% * 4 / 12 - 10px);
